@@ -12,9 +12,9 @@ const Home = () => {
             {' '}
             <FontAwesomeIcon icon="fa-regular fa-hand-wave" />
             Hey, <FontAwesomeIcon icon={faHand} color="#8d8d8d" />
-            <br /> I'm Rozaliia,
+            <br /> I'm Rozaliia
           </h1>
-          <h2>QA Engineer</h2>
+          <h2>QA Engineer / Junior Developer</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
