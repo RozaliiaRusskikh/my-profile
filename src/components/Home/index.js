@@ -11,7 +11,7 @@ const Home = () => {
           <h1>
             {' '}
             <FontAwesomeIcon icon="fa-regular fa-hand-wave" />
-            Hey, <FontAwesomeIcon icon={faHand} color="	#87CEEB" />
+            Hey, <FontAwesomeIcon icon={faHand} color="#8d8d8d" />
             <br /> I'm Rozaliia,
           </h1>
           <h2>QA Engineer</h2>
