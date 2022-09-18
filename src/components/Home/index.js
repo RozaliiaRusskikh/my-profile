@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './index.scss';
+import Logo from './Logo';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHand } from '@fortawesome/free-solid-svg-icons';
 
@@ -10,7 +11,6 @@ const Home = () => {
         <div className="text-zone">
           <h1>
             {' '}
-            <FontAwesomeIcon icon="fa-regular fa-hand-wave" />
             Hey, <FontAwesomeIcon icon={faHand} color="#8d8d8d" />
             <br /> I'm Rozaliia
           </h1>
@@ -19,6 +19,7 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
+        <Logo />
       </div>
     </>
   );

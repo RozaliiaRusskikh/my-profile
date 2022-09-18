@@ -15,29 +15,6 @@
     font-family: 'Coolvetica';
     font-weight: 400;
     letter-spacing: 2px;
-
-    &::before {
-      content: '<h1>';
-      font-family: 'La Belle Aurore';
-      color: #d2042d;
-      font-size: 18px;
-      position: absolute;
-      margin-top: -40px;
-      left: 1px;
-      opacity: 0.6;
-    }
-
-    &::after {
-      content: '<h1 />';
-      font-family: 'La Belle Aurore';
-      color: #d2042d;
-      font-size: 18px;
-      position: absolute;
-      margin-top: 10px;
-      margin-left: 20px;
-      animation: fadeIn 1s 1.7s backwards;
-      opacity: 0.6;
-    }
   }
 
   h2 {
@@ -52,7 +29,7 @@
   .flat-button {
     color: #d2042d;
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: 4px;
     font-family: sans-seriff;
     text-decoration: none;
@@ -62,6 +39,7 @@
     float: left;
     animation: fadeIn 1s 1.8s backwards;
     white-space: nowrap;
+    opacity: 0.8;
 
     &:hover {
       background: #d2042d;
