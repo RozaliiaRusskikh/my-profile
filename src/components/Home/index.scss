@@ -27,7 +27,8 @@
     animation: fadeIn 1s 1.8s backwards;
   }
   .flat-button {
-    color: #d2042d;
+    color: #fff;
+    background: #d2042d;
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 4px;
@@ -39,11 +40,11 @@
     float: left;
     animation: fadeIn 1s 1.8s backwards;
     white-space: nowrap;
-    opacity: 0.8;
+    opacity: 0.9;
 
     &:hover {
-      background: #d2042d;
-      color: #333;
+      background: #fff;
+      color: #d2042d;
     }
   }
 }

@@ -20,4 +20,13 @@
     transform: rotateZ(30deg) !important;
     z-index: 1;
   }
+  &:hover {
+    img {
+      width: 100%;
+    }
+
+    &:after {
+      width: 90%;
+    }
+  }
 }

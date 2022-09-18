@@ -15,7 +15,7 @@ const Sidebar = () => {
       </Link>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
-          <FontAwesomeIcon icon={faHome} color="#4d4d4d" />
+          <FontAwesomeIcon icon={faHome} color="#8d8d8d" />
         </NavLink>
         <NavLink
           exact="true"
@@ -23,7 +23,7 @@ const Sidebar = () => {
           className="about-link"
           to="/about"
         >
-          <FontAwesomeIcon icon={faUser} color="#4d4d4d" />
+          <FontAwesomeIcon icon={faUser} color="#8d8d8d" />
         </NavLink>
         <NavLink
           exact="true"
@@ -31,7 +31,7 @@ const Sidebar = () => {
           className="contact-link"
           to="/contact"
         >
-          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4d" />
+          <FontAwesomeIcon icon={faEnvelope} color="#8d8d8d" />
         </NavLink>
       </nav>
       <ul>
@@ -41,7 +41,7 @@ const Sidebar = () => {
             rel="noreferrer"
             href="https://www.linkedin.com/in/rozaliya-russkikh/"
           >
-            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4d" /> 
+            <FontAwesomeIcon icon={faLinkedin} color="#8d8d8d" />
           </a>
         </li>
         <li>
@@ -50,7 +50,7 @@ const Sidebar = () => {
             rel="noreferrer"
             href="https://github.com/RozaliiaRusskikh"
           >
-            <FontAwesomeIcon icon={faGithub} color="#4d4d4d" /> 
+            <FontAwesomeIcon icon={faGithub} color="#8d8d8d" />
           </a>
         </li>
       </ul>
