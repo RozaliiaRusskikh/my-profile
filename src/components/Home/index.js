@@ -3,8 +3,12 @@ import './index.scss';
 import Logo from './Logo';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHand } from '@fortawesome/free-solid-svg-icons';
+import { useState } from 'react';
 
 const Home = () => {
+  const [letterClass, setLetterClass] = useState('text-animate');
+  const nameArray = ['R', 'o', 'z', 'a', 'l', 'i', 'i', 'a'];
+  const jobArray = ['J', 'u', 'n', 'i', 'o', 'r', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
   return (
     <>
       <div className="container home-page">

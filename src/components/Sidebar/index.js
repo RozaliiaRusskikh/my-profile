@@ -3,7 +3,12 @@ import { Link, NavLink } from 'react-router-dom';
 import Logo from '/Users/roza/my-profile/src/assets/images/logo-roza.png';
 import LogoSubtitle from '/Users/roza/my-profile/src/assets/images/logo_sub.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import {
+  faHome,
+  faUser,
+  faEnvelope,
+  faPhone,
+} from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => {
@@ -31,7 +36,7 @@ const Sidebar = () => {
           className="contact-link"
           to="/contact"
         >
-          <FontAwesomeIcon icon={faEnvelope} color="#8d8d8d" />
+          <FontAwesomeIcon icon={faPhone} color="#8d8d8d" />
         </NavLink>
       </nav>
       <ul>
@@ -51,6 +56,11 @@ const Sidebar = () => {
             href="https://github.com/RozaliiaRusskikh"
           >
             <FontAwesomeIcon icon={faGithub} color="#8d8d8d" />
+          </a>
+        </li>
+        <li>
+          <a href="mailto:rrrusskikh@gmail.com">
+            <FontAwesomeIcon icon={faEnvelope} color="#8d8d8d" />
           </a>
         </li>
       </ul>
