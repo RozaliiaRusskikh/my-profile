@@ -12,13 +12,13 @@ const About = () => {
         />
       </h1>
       <p>
-        I am enthusiastic, focused and motivated Junior Developer with
-        experience building React websites looking for an opportunity to
-        grow front-end development skills.
+        I am enthusiastic, fascinated by computer technology, focused and
+        motivated Junior Developer with experience building React websites
+        looking for an opportunity to grow front-end development skills.
       </p>
       <p>
-        Fascinated by computer technology, attentive to details, I also have
-        experience in Software Testing (manual and automation).
+        Attentive to details, I also have experience in Software Testing (manual
+        and automation).
       </p>
       <p>
         I love learning new things and happy to put my learning into practice. I
