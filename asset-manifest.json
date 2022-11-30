@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-profile/static/css/main.928b759d.css",
+    "main.js": "/my-profile/static/js/main.8ba42a0c.js",
+    "static/js/787.9077b1c8.chunk.js": "/my-profile/static/js/787.9077b1c8.chunk.js",
+    "static/media/portfolio-photo.png": "/my-profile/static/media/portfolio-photo.3423571bf89dbd57fa31.png",
+    "static/media/logo-roza.png": "/my-profile/static/media/logo-roza.91e6b9f94c260aca4912.png",
+    "static/media/resume.pdf": "/my-profile/static/media/resume.3c9d24cbbb8de85c96fc.pdf",
+    "static/media/logo_sub.png": "/my-profile/static/media/logo_sub.3d64a9cf9e23fea5c8a7.png",
+    "static/media/helvetica-neu.ttf": "/my-profile/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/my-profile/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/my-profile/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/my-profile/index.html",
+    "main.928b759d.css.map": "/my-profile/static/css/main.928b759d.css.map",
+    "main.8ba42a0c.js.map": "/my-profile/static/js/main.8ba42a0c.js.map",
+    "787.9077b1c8.chunk.js.map": "/my-profile/static/js/787.9077b1c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.928b759d.css",
+    "static/js/main.8ba42a0c.js"
+  ]
+}
