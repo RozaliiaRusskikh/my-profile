@@ -9,7 +9,7 @@ import {
   faHtml5,
   faJsSquare,
   faReact,
-  faGitlab
+  faGitlab,
 } from '@fortawesome/free-brands-svg-icons';
 
 const About = () => {
@@ -39,8 +39,8 @@ const About = () => {
         <p>
           <FontAwesomeIcon icon={faCheck} color="#ffff" />
           &nbsp; I am enthusiastic, fascinated by computer technology, focused
-          and motivated Junior Developer with experience building React websites
-          looking for an opportunity to grow front-end development skills.
+          and motivated Web Developer with experience building websites
+          looking for an opportunity to grow front-end and back-end development skills.
         </p>
         <p>
           <FontAwesomeIcon icon={faCheck} color="#ffff" />
@@ -50,7 +50,7 @@ const About = () => {
         <p>
           <FontAwesomeIcon icon={faCheck} color="#ffff" />
           &nbsp; I love learning new things and happy to put my learning into
-          practice. I don’t shy away from big challenges - they inspire me.
+          practice. I don’t shy away from big challenges - they inspire and motivate me.
         </p>
       </div>
       <div className="stage-cube-cont">

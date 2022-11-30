@@ -38,17 +38,19 @@
   animation-delay: 1s;
 }
 
-.about-page {
+.about-page,
+.contact-page {
   .text-zone {
     position: absolute;
     left: 15%;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     width: 40%;
     vertical-align: middle;
     display: table-cell;
     max-height: 90%;
   }
+
   h1 {
     font-size: 53px;
     font-family: 'Coolvetica';
@@ -85,5 +87,35 @@
 .text-animate-hover {
   &:hover {
     color: #d2042d;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .page {
+    position: initial;
+  }
+
+  .container {
+    position: initial;
+    height: auto;
+    min-height: auto;
+    box-sizing: border-box;
+
+    &.about-page,
+    &.contact-page {
+
+      .text-zone {
+        position: initial;
+        transform: none;
+        width: 100%;
+        display: block;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      h1 {
+        font-size: 40px;
+      }
+    }
   }
 }

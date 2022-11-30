@@ -6,6 +6,7 @@ $primary-color: #D2042D;
   font-family: 'Helvetica Neue';
   src: url('./assets/fonts/helvetica-neu.ttf') format('ttf')
 }
+
 @font-face {
   font-family: 'La Belle Aurore';
   src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2')
@@ -17,7 +18,6 @@ $primary-color: #D2042D;
 }
 
 input,
-text area {
+textarea {
   font-family: 'Helvetica Neue';
-
 }

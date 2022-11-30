@@ -19,13 +19,4 @@
     width: 90%;
     transform: rotateZ(30deg) !important;
   }
-  &:hover {
-    img {
-      width: 100%;
-    }
-
-    &:after {
-      width: 90%;
-    }
-  }
 }

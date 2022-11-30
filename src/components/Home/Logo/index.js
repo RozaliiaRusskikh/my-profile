@@ -1,5 +1,5 @@
 import './index.scss';
-import LogoPhoto from '/Users/roza/my-profile/src/assets/images/portfolio-photo.png';
+import LogoPhoto from '../../../assets/images/portfolio-photo.png';
 
 const Logo = () => {
   return (
