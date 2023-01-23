@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './index.scss';
 import Logo from './Logo';
 import { useState, useEffect } from 'react';
@@ -66,9 +65,13 @@ const Home = () => {
             />
           </h1>
           <h2>Software Developer / QA Engineer</h2>
-          <Link to="/contact" className="flat-button">
-            CONTACT ME
-          </Link>
+          <a className="flat-button"
+            target="_blank"
+            rel="noreferrer"
+            href="https://my-learning-space-app.netlify.app/"
+          >
+            MY LEARNING SPACE
+          </a>
         </div>
         <Logo />
       </div>
