@@ -7,7 +7,6 @@ import {
   faJs,
   faGitAlt,
   faHtml5,
-  faNode,
   faReact,
   faSass,
 } from '@fortawesome/free-brands-svg-icons';
@@ -39,8 +38,8 @@ const About = () => {
         <p>
           <FontAwesomeIcon icon={faCheck} color="#ffff" />
           &nbsp; I am enthusiastic, fascinated by computer technology, focused
-          and motivated Web Developer with experience building websites
-          looking for an opportunity to grow front-end and back-end development skills.
+          and motivated Web Developer with experience building websites looking
+          for an opportunity to grow front-end and back-end development skills.
         </p>
         <p>
           <FontAwesomeIcon icon={faCheck} color="#ffff" />
@@ -50,16 +49,14 @@ const About = () => {
         <p>
           <FontAwesomeIcon icon={faCheck} color="#ffff" />
           &nbsp; I love learning new things and happy to put my learning into
-          practice. I don’t shy away from big challenges - they inspire and motivate me.
+          practice. I don’t shy away from big challenges - they inspire and
+          motivate me.
         </p>
       </div>
       <div className="stage-cube-cont">
         <div className="cubespinner">
           <div className="face1">
             <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-          </div>
-          <div className="face2">
-            <FontAwesomeIcon icon={faNode} color="#EFD81D" />
           </div>
           <div className="face3">
             <FontAwesomeIcon icon={faGitAlt} color="#EC5800" />
