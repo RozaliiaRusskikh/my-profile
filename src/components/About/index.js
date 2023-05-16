@@ -7,9 +7,9 @@ import {
   faCss3,
   faGitAlt,
   faHtml5,
-  faJsSquare,
+  faNodeJs,
   faReact,
-  faGitlab,
+  faSass,
 } from '@fortawesome/free-brands-svg-icons';
 
 const About = () => {
@@ -59,7 +59,7 @@ const About = () => {
             <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
           </div>
           <div className="face2">
-            <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+            <FontAwesomeIcon icon={faNodeJs} color="#EFD81D" />
           </div>
           <div className="face3">
             <FontAwesomeIcon icon={faGitAlt} color="#EC5800" />
@@ -71,7 +71,7 @@ const About = () => {
             <FontAwesomeIcon icon={faHtml5} color="#F06529" />
           </div>
           <div className="face6">
-            <FontAwesomeIcon icon={faGitlab} color="#EC5800" />
+            <FontAwesomeIcon icon={faSass} color="#EC5800" />
           </div>
         </div>
       </div>
