@@ -11,7 +11,8 @@ import {
   faPhone,
   faSheetPlastic,
   faBars,
-  faClose
+  faClose,
+  faEye,
 } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import Resume from '../../assets/resume.pdf';
@@ -20,7 +21,6 @@ const Sidebar = () => {
   const [showNav, setShowNav] = useState(false);
   return (
     <div className="nav-bar">
-
       <Link className="logo" to="/">
         <img src={Logo} alt="logo" />
         <img className="sub-logo" src={LogoSubtitle} alt="rozaliia_russkikh" />
@@ -29,8 +29,10 @@ const Sidebar = () => {
       <nav className={showNav ? 'mobile-show' : ''}>
         <NavLink
           exact="true"
-          activeclassname="active" to="/"
-          onClick={() => setShowNav(false)}>
+          activeclassname="active"
+          to="/"
+          onClick={() => setShowNav(false)}
+        >
           <FontAwesomeIcon icon={faHome} color="#8d8d8d" />
         </NavLink>
 
@@ -54,7 +56,18 @@ const Sidebar = () => {
           <FontAwesomeIcon icon={faPhone} color="#8d8d8d" />
         </NavLink>
 
-        <a className="resume-link"
+        <NavLink
+          exact="true"
+          onClick={() => setShowNav(false)}
+          activeclassname="active"
+          className="my-work-link"
+          to="/my-work"
+        >
+          <FontAwesomeIcon icon={faEye} color="#8d8d8d" />
+        </NavLink>
+
+        <a
+          className="resume-link"
           href={Resume}
           target="_blank"
           rel="noreferrer"
@@ -65,8 +78,8 @@ const Sidebar = () => {
           onClick={() => setShowNav(false)}
           icon={faClose}
           color="#d2042d"
-          size='3x'
-          className='close-icon'
+          size="3x"
+          className="close-icon"
         />
       </nav>
       <ul>
@@ -97,9 +110,9 @@ const Sidebar = () => {
       <FontAwesomeIcon
         onClick={() => setShowNav(true)}
         icon={faBars}
-        color='#D2042D'
-        size='3x'
-        className='hamburger-icon'
+        color="#D2042D"
+        size="3x"
+        className="hamburger-icon"
       />
     </div>
   );

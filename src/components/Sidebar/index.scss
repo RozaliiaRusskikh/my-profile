@@ -83,6 +83,13 @@ nav {
     }
   }
 
+
+  a.my-work-link {
+    &:after {
+      content: 'MY WORK';
+    }
+  }
+
   a.resume-link {
     &:after {
       content: 'RESUME';
