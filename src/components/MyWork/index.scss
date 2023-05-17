@@ -5,6 +5,11 @@
 
 .cards {
   position: absolute;
-  top: 50%;
+  top: 47%;
   left: 15%;
+  display: flex;
+}
+
+.card-link {
+  margin: 2.5rem;
 }
