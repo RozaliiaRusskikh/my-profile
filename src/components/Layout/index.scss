@@ -1,7 +1,6 @@
 .page {
   width: 100%;
   height: 100%;
-  position: absolute;
 }
 
 .top-tags {
@@ -26,7 +25,7 @@
 .container {
   width: 100%;
   will-change: contents;
-  height: 90%;
+  height: 100%;
   min-height: 566px;
   position: absolute;
   opacity: 0;
@@ -44,12 +43,11 @@
   .text-zone {
     position: absolute;
     left: 15%;
-    top: 40%;
+    top: 45%;
     transform: translateY(-50%);
     width: 40%;
     vertical-align: middle;
     display: table-cell;
-    max-height: 90%;
   }
 
   h1 {
@@ -105,7 +103,6 @@
     &.about-page,
     &.contact-page,
     &.my-work-page {
-
       .text-zone {
         margin-top: 6rem;
         position: initial;
@@ -118,7 +115,6 @@
 
       h1 {
         font-size: 40px;
-        
       }
     }
   }

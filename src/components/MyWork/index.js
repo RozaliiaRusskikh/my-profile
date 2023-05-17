@@ -67,7 +67,7 @@ const About = () => {
           rel="noreferrer"
           href={wizardLink}
         >
-          <ProjectCard image={wizardApp} title="Find your wizard family" />
+          <ProjectCard image={wizardApp} title="Find wizard family" />
         </a>
       </div>
     </div>
