@@ -6,6 +6,7 @@ import travelApp from '../../assets/images/my-travel-app.png';
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
+  let travelBookLink = 'https://github.com/RozaliiaRusskikh/my-travel-book';
 
   useEffect(() => {
     let timeout;
@@ -19,24 +20,30 @@ const About = () => {
     };
   }, []);
   return (
-    <section className="my-work">
-      <div className="container about-page">
-        <div className="text-zone">
-          <h1>
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={['M', 'y', ' ', 'w', 'o', 'r', 'k']}
-              idx={15}
-            />
-          </h1>
-        </div>
-        <ProjectCard
-          image={travelApp}
-          title="My Travel Book"
-          quote="https://github.com/RozaliiaRusskikh/my-travel-book"
-        />
+    <div className="container my-work-page">
+      <div className="text-zone">
+        <h1>
+          <AnimatedLetters
+            letterClass={letterClass}
+            strArray={['M', 'y', ' ', 'w', 'o', 'r', 'k']}
+            idx={15}
+          />
+        </h1>
       </div>
-    </section>
+      <div className="cards">
+        <a
+          className="card-link"
+          target="_blank"
+          rel="noreferrer"
+          href={travelBookLink}
+        >
+          <ProjectCard
+            image={travelApp}
+            title="My Travel Book"
+          />
+        </a>
+      </div>
+    </div>
   );
 };
 

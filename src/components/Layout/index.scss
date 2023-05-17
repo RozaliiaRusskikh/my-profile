@@ -39,7 +39,8 @@
 }
 
 .about-page,
-.contact-page {
+.contact-page,
+.my-work-page {
   .text-zone {
     position: absolute;
     left: 15%;
@@ -102,9 +103,11 @@
     box-sizing: border-box;
 
     &.about-page,
-    &.contact-page {
+    &.contact-page,
+    &.my-work-page {
 
       .text-zone {
+        margin-top: 6rem;
         position: initial;
         transform: none;
         width: 100%;
@@ -115,6 +118,7 @@
 
       h1 {
         font-size: 40px;
+        
       }
     }
   }

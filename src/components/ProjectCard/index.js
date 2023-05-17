@@ -1,20 +1,11 @@
-import "./index.scss";
+import './index.scss';
 
-function ProjectCard({ image, title, link }) {
+function ProjectCard({ image, title}) {
   return (
-    <div className="flip-card">
-      <div className="flip-card__inner">
-        <div className="flip-card__front">
-          <img className="flip-card__image" src={image} alt={title} />
-          <div className="flip-card__container">
-            <p className="flip-card__title">{title}</p>
-          </div>
-        </div>
-        <div className="flip-card__back">
-          <p className="flip-card__link">{link}</p>
-        </div>
-      </div>
-    </div>
+    <article className="card">
+      <img className="card__image" src={image} alt={title} />
+      <h3 className="card__title">{title}</h3>
+    </article>
   );
 }
 export default ProjectCard;
