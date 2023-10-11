@@ -6,6 +6,7 @@ import travelApp from '../../assets/images/my-travel-app.png';
 import movieApp from '../../assets/images/movie.png';
 import wizardApp from '../../assets/images/wizard.png';
 import spaceApp from '../../assets/images/my-learning-space.png';
+import bookCaseApp from '../../assets/images/boo-case.png';
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -13,6 +14,7 @@ const About = () => {
   let learningSpaceLink = 'https://my-learning-space-app.netlify.app';
   let movieLink = 'https://smart-movie-engine.netlify.app';
   let wizardLink = 'https://hogwarts-houses.netlify.app';
+  let bookCaseLink = 'https://book-case.vercel.app';
 
   useEffect(() => {
     let timeout;
@@ -68,6 +70,14 @@ const About = () => {
           href={wizardLink}
         >
           <ProjectCard image={wizardApp} title="Find wizard family" />
+        </a>
+        <a
+          className="card-link"
+          target="_blank"
+          rel="noreferrer"
+          href={bookCaseLink}
+        >
+          <ProjectCard image={bookCaseApp} title="Find & Share Books" />
         </a>
       </div>
     </div>
