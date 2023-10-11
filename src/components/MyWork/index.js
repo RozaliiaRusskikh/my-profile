@@ -51,6 +51,14 @@ const About = () => {
           className="card-link"
           target="_blank"
           rel="noreferrer"
+          href={bookCaseLink}
+        >
+          <ProjectCard image={bookCaseApp} title="Find & Share Books" />
+        </a>
+        <a
+          className="card-link"
+          target="_blank"
+          rel="noreferrer"
           href={movieLink}
         >
           <ProjectCard image={movieApp} title="Smart Movie Engine" />
@@ -70,14 +78,6 @@ const About = () => {
           href={wizardLink}
         >
           <ProjectCard image={wizardApp} title="Find wizard family" />
-        </a>
-        <a
-          className="card-link"
-          target="_blank"
-          rel="noreferrer"
-          href={bookCaseLink}
-        >
-          <ProjectCard image={bookCaseApp} title="Find & Share Books" />
         </a>
       </div>
     </div>
