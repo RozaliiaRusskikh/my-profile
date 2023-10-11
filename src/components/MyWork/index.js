@@ -6,7 +6,7 @@ import travelApp from '../../assets/images/my-travel-app.png';
 import movieApp from '../../assets/images/movie.png';
 import wizardApp from '../../assets/images/wizard.png';
 import spaceApp from '../../assets/images/my-learning-space.png';
-import bookCaseApp from '../../assets/images/boo-case.png';
+import bookCaseApp from '../../assets/images/book-case.png';
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
