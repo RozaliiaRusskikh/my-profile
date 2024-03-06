@@ -7,23 +7,7 @@ import { faHand } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
-  const nameArray = ['R', 'o', 'z', 'a', 'l', 'i', 'i', 'a', ','];
-  const jobArray = [
-    'W',
-    'e',
-    'b',
-    ' ',
-    'D',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.',
-  ];
+  const nameArray = ['R', 'o', 'z', 'a', ','];
 
   useEffect(() => {
     let timeout;
@@ -58,14 +42,10 @@ const Home = () => {
               idx={16}
             />
             <br />
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={jobArray}
-              idx={24}
-            />
           </h1>
-          <h2>Software Developer / QA Engineer</h2>
-          <a className="flat-button"
+          <h2>Full Stack Engineer with a passion for quality</h2>
+          <a
+            className="flat-button"
             target="_blank"
             rel="noreferrer"
             href="https://my-learning-space-app.netlify.app/"
