@@ -14,7 +14,7 @@ const About = () => {
   let learningSpaceLink = 'https://my-learning-space-app.netlify.app';
   let movieLink = 'https://smart-movie-engine.netlify.app';
   let wizardLink = 'https://hogwarts-houses.netlify.app';
-  let bookCaseLink = 'https://book-case.vercel.app';
+  let bookCaseLink = 'https://share-books-nine.vercel.app/';
 
   useEffect(() => {
     let timeout;
